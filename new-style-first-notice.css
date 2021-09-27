@@ -242,7 +242,6 @@ article h3 a{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 .#font{
     font-weight: bolder;
 }
@@ -298,4 +297,9 @@ h5{display:block;
     box-sizing: inherit;
     line-height: 1.5;
     text-align-last: auto;
+}
+ #subs-foot{
+    font-family: "Oswald";
+    font-size: 18px;
+    text-align: center;
 }
