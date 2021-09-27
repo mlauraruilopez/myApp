@@ -1,0 +1,207 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.header-container {
+   
+    background-color: black;
+     font-family: 'Muli', sans-serif;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.main-navigation {
+    
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+    line-height:3;
+}
+
+.main-navigation ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 15px;
+    padding-left: 0;
+}
+
+.main-navigation li {
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+}
+
+.main-navigation a {
+    display: block;
+    color:white;
+    text-decoration: none;
+}
+.main-navigation a .menu-description{
+    position: absolute;
+    top: 3px;
+    left: calc(100% - 40px);
+    background: #fff;
+    color: #000;
+    font-size: 10px;
+    padding: 1px 4px;
+    line-height: 10px;
+    z-index: 1;
+}
+.main-navigation a .menu-description:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    left: 3px;
+    bottom: -4px;
+}
+.main-content{
+width: 100%;
+background: #fff;
+padding: 30px;
+margin: 30px auto;
+}
+.entry-footer{
+    display: block;
+    box-sizing: inherit;
+        width: 100%;
+}
+.entry-footer a{
+font-family: "Muli", sans-serif;
+font-size:12px;
+height:auto;
+line-height:20.4px;
+overflow-wrap:break-word;
+color:rgb(68, 68, 68);
+text-decoration:none;
+}
+.box-grey{
+    background-color:#fafafa;
+    padding: 20px;
+}
+.main-article{
+    background-color: white;
+}
+.article-box{
+    width: 70%;
+    float: left;
+    padding-right: 15px;
+}
+article h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+article h2{
+ font-family:'Oswald', sans-serif;
+font-size:26px;
+font-weight:900;
+height:auto;
+letter-spacing:1px;
+line-height:44.2px;
+font-weight: bolder;
+
+}
+article p{
+    margin-bottom: 25px;
+    font-family: 'Muli';
+    color: #444;
+    line-height: 1.7;
+}
+.container-article{
+    padding: 20px;
+}
+#img-intro{
+width: 900px;
+height: 600px;
+}
+
+
+#img-middle{
+    width: 734px;
+    height: 515px;
+    margin-bottom: 25px;
+}
+.img-container{
+    display: block;
+    margin-bottom: 1em;
+    box-sizing: inherit;
+}
+#img-float{
+    float: right;
+    display: table;
+    margin: .5em 0 .5em 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+#img-last{
+    width: 475px;
+    height: 320px;
+}
+.video{
+    margin: 1em 0;
+}
+.video iframe{
+    width: 703px;
+    height: 395px;
+}
+.figcaption{
+    display: table-caption;
+    caption-side: bottom;
+    color: #555;
+    font-size: 13px;
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    box-sizing: inherit;
+}
+.aside-box{
+    background-color:#fafafa;
+    padding:20px;
+    
+}
+#footer-web{
+    display: inline-block;
+    width:100%;
+}
+.footer-box{
+    background-color: black;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+}
+.footer-box a{
+    color: #bbb;
+    text-decoration: none;
+}
+#by-shanti{
+    font-size: 11px;
+    font-family: sans-serif;
+}
+article h3{
+  
+color:rgb(30, 33, 11);
+cursor:pointer;
+font-family:"Oswald";
+font-size:18px;
+text-align: center;
+}
+article h3 a{
+    text-decoration: none;
+}
