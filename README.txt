@@ -8,7 +8,7 @@ The first notice ( week 1) adopt the same style of the new work
 The first notice link ( of another website):
 https://theconversation.com/bilingual-people-with-language-loss-due-to-stroke-can-pose-a-treatment-challenge-computational-modeling-may-help-clinicians-treat-them-164219
 
-This work it could be see in GitHub: 
+This work it could be see in GitHub: https://github.com/mlauraruilopez/myApp
 mlauraruilopez/myApp
 
 #license and copyright
